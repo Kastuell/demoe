@@ -44,7 +44,7 @@ const AdminPanel = () => {
             </div>
             <div className="h-1 w-full border-t border-gray-400 mt-2" />
             <div className="text-3xl">Все заказы</div>
-            <div className="mx-auto p-5">
+            <div className="mx-auto p-5 space-y-5">
                 {orders.map((item, index) =>
                     <div key={index} className="border p-5">
                         <div className="flex flex-col gap-5">

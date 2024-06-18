@@ -39,7 +39,7 @@ const Orders = () => {
         <div>
             <h1 className="text-5xl">Заказы</h1>
             <div className="h-1 w-full border-t border-gray-400 mt-2" />
-            <div className="mx-auto p-5">
+            <div className="mx-auto p-5 space-y-5">
                 {orders.map((item, index) =>
                     <div key={index} className="border p-5">
                         <h6 className="text-2xl">Заказ №{index + 1}</h6>

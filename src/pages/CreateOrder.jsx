@@ -66,7 +66,10 @@ const CreateOrder = () => {
                     )}
                 </ul>
             </div>
-            <Button title='Создать' onClick={() => alert('Новый заказ!')} />
+            <Button title='Создать' onClick={() => {
+                setNewOrder([])
+                alert('Новый заказ!')
+            }} />
 
         </div>
     )
